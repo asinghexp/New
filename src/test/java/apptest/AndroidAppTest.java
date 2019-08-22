@@ -21,7 +21,7 @@ public class AndroidAppTest {
     String accessKey = System.getenv("SEETEST_IO_ACCESS_KEY");
 
     @Before
-    public void setUp() throws IOException {
+    public void setUp() throws IOException 
         dc.setCapability("testName", testName);
         dc.setCapability("accessKey", accessKey);
         //install the app on the device
