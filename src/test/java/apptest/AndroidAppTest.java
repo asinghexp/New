@@ -17,7 +17,7 @@ public class AndroidAppTest {
 
     AndroidDriver driver = null;
     DesiredCapabilities dc = new DesiredCapabilities();
-    String testName = "Testing Android App with Java -- ARJUN";
+    String testName = "Testing Android App with Java -- ARJUN2233";
     String accessKey = System.getenv("SEETEST_IO_ACCESS_KEY");
 
     @Before
